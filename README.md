@@ -44,7 +44,7 @@ A package filled with patches & code from the codevember 2019 challenge
 
 # Dependencies
 
-1. [gl-pix-shaders](https://github.com/tmhglnd/gl-pix-shaders.git)
+1. GL3 Engine from the Max Package Manager
 
 # Install
 
