@@ -42,6 +42,10 @@ A package filled with patches & code from the codevember 2019 challenge
 29. Liquid
 30. Devided
 
+# Dependencies
+
+1. [gl-pix-shaders](https://github.com/tmhglnd/gl-pix-shaders.git)
+
 # Install
 
 Download zip
