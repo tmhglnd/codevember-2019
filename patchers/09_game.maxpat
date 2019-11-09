@@ -144,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 447.128279883381992, 285.0, 37.0, 22.0 ],
+					"patching_rect" : [ 517.128279883381992, 225.0, 37.0, 22.0 ],
 					"text" : "* -0.5"
 				}
 
@@ -156,7 +156,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.128279883381992, 255.0, 39.0, 22.0 ],
+					"patching_rect" : [ 517.128279883381992, 195.0, 39.0, 22.0 ],
 					"text" : "r amp"
 				}
 
@@ -383,7 +383,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1155.0, 106.0, 91.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "harmonic 1 120"
 				}
 
@@ -1285,7 +1284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.128279883381992, 315.0, 89.0, 22.0 ],
+					"patching_rect" : [ 517.128279883381992, 255.0, 89.0, 22.0 ],
 					"text" : "prepend speed"
 				}
 
@@ -1297,7 +1296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.128279883381992, 375.0, 115.0, 22.0 ],
+					"patching_rect" : [ 517.128279883381992, 315.0, 115.0, 22.0 ],
 					"text" : "prepend offset 5123"
 				}
 
@@ -1949,7 +1948,6 @@
 					}
 ,
 					"patching_rect" : [ 427.128279883381936, 540.0, 135.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "jit.gl.pix @t terrain-color"
 				}
 
@@ -1999,7 +1997,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 300.0, 123.0, 210.0, 35.0 ],
+					"patching_rect" : [ 300.0, 123.0, 211.0, 35.0 ],
 					"text" : "jit.gl.camera @position 0 1 5 @lookat 0 0 1 @tripod 1 @locklook 1"
 				}
 
@@ -2011,7 +2009,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.128279883381992, 345.0, 63.0, 22.0 ],
+					"patching_rect" : [ 517.128279883381992, 285.0, 63.0, 22.0 ],
 					"text" : "jit.mo.time"
 				}
 
@@ -2025,7 +2023,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 575.5, 420.0, 50.0, 22.0 ]
+					"patching_rect" : [ 780.0, 450.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -2036,7 +2034,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.5, 450.0, 49.0, 22.0 ],
+					"patching_rect" : [ 780.0, 480.0, 49.0, 22.0 ],
 					"text" : "amp $1"
 				}
 
@@ -2184,7 +2182,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 575.5, 285.0, 49.5, 22.0 ]
+					"patching_rect" : [ 820.5, 375.0, 49.5, 22.0 ]
 				}
 
 			}
@@ -2195,7 +2193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.5, 315.0, 54.5, 22.0 ],
+					"patching_rect" : [ 820.5, 405.0, 55.0, 22.0 ],
 					"text" : "zoom $1"
 				}
 
@@ -2241,12 +2239,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 645.0, 375.0, 127.0, 22.0 ],
-					"text" : "jit.gl.bfg @type float32"
+					"patching_rect" : [ 645.0, 375.0, 159.0, 35.0 ],
+					"text" : "jit.gl.bfg @type float32 @basis fractal.multi.hybrid"
 				}
 
 			}
@@ -2284,18 +2283,6 @@
 					"outlettype" : [ "", "bang", "" ],
 					"patching_rect" : [ 45.0, 195.0, 377.0, 22.0 ],
 					"text" : "jit.world @enable 1 @erase_color 0 0 0 1 @floating 1 @size 500 500"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "basis",
-					"id" : "obj-48",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 667.342565597667772, 315.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -2819,13 +2806,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-48", 0 ]
 				}
 
 			}
