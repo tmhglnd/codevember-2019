@@ -24,7 +24,7 @@ A package filled with patches & code from the codevember 2019 challenge
 - [x] 11. Perspective
 - [x] 12. Ice
 - [x] 13. Line
-- [ ] 14. Bouncy
+- [x] 14. Bouncy
 - [ ] 15. Share
 - [ ] 16. Math 
 - [ ] 17. Stack
