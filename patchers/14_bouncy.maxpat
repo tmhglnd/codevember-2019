@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 450.0, 45.0, 162.0, 33.0 ],
+					"text" : "requires Ease package from the package manager"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-61",
 					"maxclass" : "flonum",
@@ -127,7 +139,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 294.0, 219.0, 158.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "0.4 1. 1. 1."
 								}
 
