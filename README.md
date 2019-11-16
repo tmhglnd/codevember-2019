@@ -25,7 +25,7 @@ A package filled with patches & code from the codevember 2019 challenge
 - [x] 12. Ice
 - [x] 13. Line
 - [x] 14. Bouncy
-- [ ] 15. Share
+- [x] 15. Share
 - [ ] 16. Math 
 - [ ] 17. Stack
 - [ ] 18. Stretch
