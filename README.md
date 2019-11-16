@@ -26,7 +26,7 @@ A package filled with patches & code from the codevember 2019 challenge
 - [x] 13. Line
 - [x] 14. Bouncy
 - [x] 15. Share
-- [ ] 16. Math 
+- [x] 16. Math 
 - [ ] 17. Stack
 - [ ] 18. Stretch
 - [ ] 19. Colors
@@ -45,6 +45,7 @@ A package filled with patches & code from the codevember 2019 challenge
 # Dependencies
 
 1. GL3 Engine from the Max Package Manager
+2. Ease package from the Max Package Manager
 
 # Install
 
