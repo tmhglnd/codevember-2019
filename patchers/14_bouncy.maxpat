@@ -2483,12 +2483,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 229.0, 347.0, 303.0, 22.0 ],
-					"text" : "jit.gl.camera @position 0 0 4 @near_clip 1 @locklook 1"
+					"patching_rect" : [ 229.0, 347.0, 211.0, 35.0 ],
+					"text" : "jit.gl.camera @position 0 0 4 @near_clip 1 @locklook 1 @tripod 1"
 				}
 
 			}
