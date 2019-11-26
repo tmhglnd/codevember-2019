@@ -28,8 +28,8 @@ A package filled with patches & code from the codevember 2019 challenge
 - [x] 15. Share
 - [x] 16. Math 
 - [x] 17. Stack
-- [ ] 18. Stretch
-- [ ] 19. Colors
+- [x] 18. Stretch
+- [x] 19. Colors
 - [ ] 20. Curve
 - [ ] 21. Fast
 - [ ] 22. Fruit
