@@ -8,7 +8,7 @@
 
 # About
 
-A package filled with patches & code from the codevember 2019 challenge
+A package filled with patches & code from the codevember 2019 challenge. All patchers require Max8, and some [dependencies](#dependencies)
 
 # Prompt List
 - [x] 01. Contrast
@@ -42,12 +42,6 @@ A package filled with patches & code from the codevember 2019 challenge
 - [ ] 29. Liquid
 - [ ] 30. Devided
 
-# Dependencies
-
-1. GL3 Engine from the Max Package Manager
-2. Ease package from the Max Package Manager
-3. Syphonserver from the Max Package Manager (for recording texture output)
-
 # Install
 
 Download zip
@@ -63,8 +57,17 @@ Git clone
 3. $ open codevember-2019
 ```
 
+# Dependencies
+
+Install Dependencies through the Max Package Manager
+
+- `GL3 Engine`
+- `Ease`
+- `Syphon`
+- `jit.mo`
+
 ## License
 
 This software is licensed under:
 
-The MIT License
+**The MIT License**
