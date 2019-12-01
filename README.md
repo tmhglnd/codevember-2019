@@ -30,7 +30,7 @@ A package filled with patches & code from the codevember 2019 challenge. All pat
 - [x] 17. Stack
 - [x] 18. Stretch
 - [x] 19. Colors
-- [ ] 20. Curve
+- [x] 20. Curve
 - [ ] 21. Fast
 - [ ] 22. Fruit
 - [ ] 23. Now

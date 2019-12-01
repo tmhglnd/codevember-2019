@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -381,7 +381,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 5,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1410.5, 300.0, 61.0, 22.0 ],
 					"text" : "yafr2"
 				}
@@ -532,8 +532,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -823,8 +823,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -888,8 +888,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 130.0, 331.0, 22.0 ],
-									"text" : "jit.gl.light @type directional @direction -1 0 -1 @diffuse 1 1 1"
+									"patching_rect" : [ 50.0, 130.0, 361.0, 22.0 ],
+									"text" : "jit.gl.light @type directional @direction -1 0 -1 @diffuse 0.5 0.5 0.5"
 								}
 
 							}
@@ -932,14 +932,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+						"rect" : [ 916.0, 78.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -998,7 +998,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 276.5, 265.5, 180.0, 22.0 ],
-									"text" : "0.985631 0. 0.038431 1."
+									"text" : "0. 0. 0. 1."
 								}
 
 							}
@@ -1034,7 +1034,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 59.5, 265.0, 180.0, 22.0 ],
-									"text" : "0.235776 0.861156 0.139297 1."
+									"text" : "0. 0. 0. 1."
 								}
 
 							}
@@ -1185,14 +1185,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+						"rect" : [ 828.0, 167.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1251,7 +1251,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 268.5, 259.5, 180.0, 22.0 ],
-									"text" : "0.960962 0. 0.073563 1."
+									"text" : "1. 0. 0. 1."
 								}
 
 							}
@@ -1450,8 +1450,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1531,8 +1531,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 8,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2221,7 +2221,7 @@
 					"patching_rect" : [ 555.0, 294.5, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-54", "flonum", "float", 1.440000057220459, 5, "obj-65", "flonum", "float", 2.140000104904175, 5, "obj-2", "flonum", "float", 3.25, 5, "obj-29", "flonum", "float", 0.550000011920929, 5, "obj-35", "flonum", "float", 11.0, 5, "obj-39", "flonum", "float", 1.5, 5, "obj-83", "toggle", "int", 1, 5, "obj-102", "flonum", "float", 1.013000011444092, 5, "obj-103", "flonum", "float", 0.906000018119812, 5, "obj-120", "number", "int", 125, 5, "obj-161", "mc.live.gain~", "float", 0.0, 5, "obj-175", "flonum", "float", 2.0 ]
+							"data" : [ 5, "obj-54", "flonum", "float", 1.440000057220459, 5, "obj-65", "flonum", "float", 2.140000104904175, 5, "obj-2", "flonum", "float", 3.25, 5, "obj-29", "flonum", "float", 0.550000011920929, 5, "obj-35", "flonum", "float", 11.0, 5, "obj-39", "flonum", "float", 1.5, 5, "obj-83", "toggle", "int", 1, 5, "obj-102", "flonum", "float", 1.013000011444092, 5, "obj-103", "flonum", "float", 0.949000000953674, 5, "obj-120", "number", "int", 125, 5, "obj-161", "mc.live.gain~", "float", 0.0, 5, "obj-175", "flonum", "float", 2.0 ]
 						}
  ]
 				}
@@ -2300,8 +2300,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2650,8 +2650,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2810,8 +2810,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3060,8 +3060,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3642,13 +3642,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
@@ -3926,13 +3919,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jit.mo.time.mxo",
 				"type" : "iLaX"
 			}
